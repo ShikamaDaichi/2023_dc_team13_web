@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>チーム13 成果物公開ページ</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 5%;
+}
+
+section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navigation {
+        background-color: #000080;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 50%; /* Set the height to 50% of the screen */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0.2em;
+        z-index: 1000;
+    }
+
+    .navigation a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.2em 0.4em;
+        cursor: pointer;
+        font-size: 12px;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="navigation">
+        <a href="#manual">遊び方</a>
+        <a href="#proposal">企画書</a>
+        <a href="#poster">ポスター</a>
+        <a href="#movie">紹介動画</a>
+        <a href="#code">コード</a>
+        <a href="#member">メンバー</a>
+    </div>
+
+    <header>
+        <h1>ふわふわ言葉で好感度爆上げゲーム</h1>
+    </header>
+
+    <section>
+        <h2><a name="manual">遊び方</a></h2>
+        <p>このゲームは手札にある5枚のふわふわ言葉カードやチクチク言葉カードの中から1枚選択し、決められたターン内に相手のHP（好感度）を目標の値まで上げるゲームです。</p>
+        <ul>
+            <li>ふわふわ言葉カード</li>
+            <p>ふわふわ言葉カードには言われると気持ちがふわふわする言葉が書かれています。</p>
+            <p>このカードを選択すると相手の好感度が上がります。</p>
+            <li>チクチク言葉カード</li>
+            <p>チクチク言葉カードには言われると傷ついたり、嫌な気持ちになる言葉が書かれています。</p>
+            <p>このカードを選択すると相手の好感度が下がります。</p>
+        </ul>
+        <p>手札からふわふわ言葉カードがなくなった時には手札交換ボタンを押すと、デッキのランダムな5枚のカードと入れ替わります。</p>
+        <div style="text-align: center">
+            <img src="カード紹介.png" alt="カード紹介" width="600" height="469">
+        </div>
+        <p>目標のHPまで到達したらゲームクリアとなり、次のレベルに進みます。</p>
+        <p>HPがなくなるとゲームオーバーとなり、ゲームオーバー画面が表示されます。</p>
+        <div style="text-align: center">
+            <img src="gameover.png" alt="gameover" width="600" height="469">
+        </div>
+        <p>何度も挑戦して3つのレベル全てをクリアを目指しましょう。</p>
+        <div style="text-align: center">
+            <img src="clear.png" alt="clear" width="600" height="469">
+        </div>
+    </section>
+
+    <section>
+        <h2><a name="proposal">企画書</a></h2>
+        <object data="doc.pdf" type="application/pdf" width="400px" height="400px">
+            <p>
+                <a href="proposal.pdf">企画書を表示</a>
+            </p>
+        </object>
+    </section>
+
+    <section>
+        <h2><a name="poster">ポスター</a></h2>
+        <h2><a name="proposal">ポスター</a></h2>
+        <object data="doc.pdf" type="application/pdf" width="400px" height="400px">
+            <p>
+                <a href="poster.pdf">ポスターを表示</a>
+            </p>
+        </object>
+    </section>
+
+    <section>
+        <div>
+            <h2><a name="movie">紹介動画</a></h2>
+            <iframe width="1000" height="563" src="https://www.youtube.com/embed/N2HcDDFXR24?si=GGnkvGOtdIqMSxZD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section>
+        <h2><a name="code">コード</a></h2>
+        <a href="https://github.com/ShikamaDaichi/2023_dc_team13/">github</a>へ
+    </section>
+
+    <section>
+        <h2><a name="member">メンバー</a></h2>
+        <ul>
+            <li>5421012 渡貫健太</li>
+            <li>5421031 鹿摩大智</li>
+            <li>5421041 岡哲平</li>
+            <li>5421043 三浦健太郎</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2023年度 デジタルコンテンツ チーム13
+    </footer>
+
+</body>
+
+</html>
